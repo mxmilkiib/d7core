@@ -10,6 +10,7 @@ theme = base_theme
 variables[site_name] = Base
 variables[site_mail] = testing@localhost
 
+
 ; Theme
 
 variables[admin_theme] = seven
@@ -18,44 +19,16 @@ variables[admin_theme] = seven
 ; Core
 
 dependencies[] = path
-dependencies[] = search
 dependencies[] = syslog
 dependencies[] = help
 dependencies[] = block
 dependencies[] = menu
 
 
-; Contrib
-
-dependencies[] = features
-dependencies[] = strongarm
+; Other
 
 dependencies[] = admin_menu
 dependencies[] = admin_devel
 
 dependencies[] = devel
 dependencies[] = devel_themer
-; breaks on initial drush make as devel db table isn't there?
-
-dependencies[] = field_ui
-
-dependencies[] = views
-dependencies[] = views_ui
-dependencies[] = page_manager
-
-dependencies[] = views_bulk_operations 
-
-dependencies[] = pathauto
-
-dependencies[] = module_filter
-
-;dependencies[] = backup_migrate
-;dependencies[] = backup_migrate_files
-
-;;; Theming
-
-dependencies[] = fontyourface
-dependencies[] = block_class
-
-; Features
-
