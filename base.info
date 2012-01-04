@@ -8,7 +8,7 @@ theme = base_theme
 ; Basics
 
 variables[site_name] = Base
-variables[site_mail] = testing@localhost
+variables[site_mail] = aegir@thingsandstuff.org
 
 
 ; Theme
