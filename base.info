@@ -6,27 +6,23 @@ core = 7.x
 theme = base_theme
 
 ; Basics
-
 variables[site_name] = Base
 variables[site_mail] = aegir@thingsandstuff.org
 
 
 ; Theme
-
 variables[admin_theme] = seven
 
 
 ; Core
-
 dependencies[] = path
 dependencies[] = syslog
 dependencies[] = help
 dependencies[] = block
 dependencies[] = menu
-
+dependencies[] = contextual
 
 ; Other
-
 dependencies[] = admin_menu
 dependencies[] = admin_devel
 
